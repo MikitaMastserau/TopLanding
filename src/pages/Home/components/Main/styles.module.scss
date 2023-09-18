@@ -1,0 +1,32 @@
+.main {
+   background: url(../../../../static/images/mainCover.png) no-repeat center / cover;
+   padding: 145px 0 50px 0;
+
+   .container {
+      max-width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+
+
+   &__title {
+      max-width: 670px;
+   }
+
+   &__text {
+      max-width: 420px;
+      font-size: 14px;
+      line-height: 21px;
+      padding: 30px 0;
+   }
+
+   &__btn {
+      display: block;
+      margin: 190px auto 0;
+
+      img {
+         width: 46px;
+         height: 23px;
+      }
+   }
+}
