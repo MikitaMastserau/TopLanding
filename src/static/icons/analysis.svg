@@ -1,4 +1,4 @@
-<svg width="51" height="57" viewBox="0 0 51 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Frame" clip-path="url(#clip0_38_148)">
 <path id="Vector" d="M28.1519 17H24.3481C23.0513 17 22 18.0513 22 19.3481V40.1519C22 41.4487 23.0513 42.5 24.3481 42.5H28.1519C29.4487 42.5 30.5 41.4487 30.5 40.1519V19.3481C30.5 18.0513 29.4487 17 28.1519 17Z" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
 <path id="Vector_2" d="M42.2769 4.375H38.4731C37.1763 4.375 36.125 5.42629 36.125 6.72312V40.2769C36.125 41.5737 37.1763 42.625 38.4731 42.625H42.2769C43.5737 42.625 44.625 41.5737 44.625 40.2769V6.72312C44.625 5.42629 43.5737 4.375 42.2769 4.375Z" stroke="white" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
@@ -6,7 +6,7 @@
 </g>
 <defs>
 <clipPath id="clip0_38_148">
-<rect width="51" height="57" fill="white"/>
+<rect width="51" height="51" fill="white"/>
 </clipPath>
 </defs>
 </svg>
