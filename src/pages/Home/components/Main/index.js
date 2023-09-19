@@ -1,3 +1,5 @@
+import { useCallback } from "react";
+
 import { Button } from "components/Button";
 
 import arrowDown from "static/icons/arrowDown.svg";
@@ -5,6 +7,13 @@ import arrowDown from "static/icons/arrowDown.svg";
 import styles from "./styles.module.scss";
 
 export const Main = () => {
+   const scrollDown = useCallback(() => {
+      window.scroll({
+         behavior: "smooth",
+         top: 720,
+      });
+   }, []);
+
    return (
       <main className={styles.main}>
          <div className={styles.container}>
@@ -12,7 +21,7 @@ export const Main = () => {
             <p className={styles.main__text}>Bonus until the end of April: Free month of advertising campaigns!
                Send a request to find out the cost and development time.</p>
             <Button text="Calculate the cost of services" />
-            <button className={styles.main__btn}><img src={arrowDown} alt="" /></button>
+            <button className={styles.main__btn} onClick={() => scrollDown()}><img src={arrowDown} alt="" /></button>
          </div>
       </main>
    )
