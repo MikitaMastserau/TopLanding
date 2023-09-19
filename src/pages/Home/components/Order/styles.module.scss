@@ -98,3 +98,11 @@
       }
    }
 }
+
+@media screen and (max-width: 767px) {
+   .order {
+      &__hat {
+         text-align: center;
+      }
+   }
+}

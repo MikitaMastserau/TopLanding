@@ -7,6 +7,7 @@ export const Header = () => {
    return (
       <header className={styles.header}>
          <div className={styles.container}>
+            <p className={styles.header__slogan}>The future is near</p>
             <Logo />
             <div className={styles.header__phone}>
                <a href="tel:+380975246732" target="_blanc">+(380)975246732</a>

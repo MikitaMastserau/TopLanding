@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 export const Tariffs = () => {
    return (
-      <section className={styles.tariffs}>
+      <section className={styles.tariffs} id="tariffs">
          <div className={styles.container}>
             <div className={styles.tariffs__hat}>
                <h2>Tariffs and included services.</h2>

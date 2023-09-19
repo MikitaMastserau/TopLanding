@@ -98,3 +98,38 @@
       display: none;
    }
 }
+
+@media screen and (max-width: 1199px) {
+   .works {
+      .container {
+         width: 100%;
+         padding: 0 30px;
+      }
+   }
+
+   .swiperContainer {
+      padding: 0 30px;
+   }
+
+   .swiper {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .works {
+      padding: 50px 0;
+
+      .container {
+         padding: 0 15px;
+      }
+
+      &__hat {
+         flex-direction: column;
+      }
+   }
+
+   .swiperContainer {
+      padding: 0 15px;
+   }
+}
