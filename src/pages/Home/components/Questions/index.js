@@ -33,16 +33,31 @@ export const Questions = () => {
                   <img src={analysis} alt="" />
                   <h3>Market analysis</h3>
                   <p>Full immersion in your business. We extract meanings and values, highlight the strengths of the business.</p>
+                  <div className={styles.quest__hov}>
+                     <button onClick={() => alert("Please call +(380)975246732 for detailed information.")}>
+                        <h3>More details</h3>
+                     </button>
+                  </div>
                </div>
                <div className={styles.quest__ball}>
                   <img src={copy} alt="" />
                   <h3>Copywriting</h3>
                   <p>When you only have one line, every word is worth its weight in gold. Each screen is a semantic bullet.</p>
+                  <div className={styles.quest__hov}>
+                     <button onClick={() => alert("Please call +(380)975246732 for detailed information.")}>
+                        <h3>More details</h3>
+                     </button>
+                  </div>
                </div>
                <div className={styles.quest__ball}>
                   <img src={design} alt="" />
                   <h3>Design</h3>
                   <p>A professional designer makes a gorgeous visual package for your proposal.</p>
+                  <div className={styles.quest__hov}>
+                     <button onClick={() => alert("Please call +(380)975246732 for detailed information.")}>
+                        <h3>More details</h3>
+                     </button>
+                  </div>
                </div>
             </div>
          </div>
